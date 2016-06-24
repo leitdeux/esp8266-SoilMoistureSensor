@@ -1,0 +1,233 @@
+/**
+ * styles.css
+ */
+
+/* Google fonts */
+html
+
+{
+    height: 100%;
+}
+body
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: black;   
+    
+    
+    height: 100%;
+    margin: 0;
+
+    /* background gradient */
+    background: rgb(57,229,169); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(57,229,169,1) 0%, rgba(221,241,249,1) 77%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(57,229,169,1) 0%,rgba(221,241,249,1) 77%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(57,229,169,1) 0%,rgba(221,241,249,1) 77%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39e5a9', endColorstr='#ffffff',GradientType=0 ); /* IE6
+    /* disable background repeat */
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+#reading p
+{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    color: white;
+}
+
+h3
+{
+    font-size: 36.7px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+#bold
+{
+    font-weight: 400; /* Lato */
+}
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    
+}
+
+#top
+{
+    /* surround with whitespace */
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+#top .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+}
+
+#navbar
+{
+    margin-top: 10px;
+    color: #010D0A;
+}
+
+#middle
+{
+    /* center */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: small;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+#title
+{
+    padding: 0;
+    margin-top: -20px;
+    text-align: justify;
+    color: white;
+}
+
+#reading
+{
+    /*color: green; */
+}
+
+#update
+{
+    padding: 0;
+    margin-top: -20px;
+    color: black;
+    font-size: 16px;
+}
+/* basic media queries */
+/* iPhone5 portrait */
+@media (min-width: 0px){
+    h3
+    {
+        font-size: 22.65px;
+    }
+    #reading
+    {
+        padding: 0;
+        margin: 0;
+        margin-top: -50px;
+        font-size: 155.24px;
+    }
+    #percent
+    {
+        vertical-align: super;
+        font-size: 59.3px;
+        line-height: normal;
+        margin-left: -40px;
+    }
+    #update
+    {
+        padding-top: 110px;
+    }
+}
+/* iPhone 6 portrait */
+@media (min-width: 375px){
+    h3
+    {
+        font-size: 27.344px;
+    }
+    #title
+    {
+        padding-top: 24px;
+    }
+    #reading
+    {
+        padding: 0;
+        margin: 0;
+        margin-top: -50px;
+        font-size: 186.037px;
+    }
+    #percent {
+        vertical-align: super;
+        font-size: 66.757px;
+        line-height: normal;
+        margin-left: -40px;
+    }
+    #update
+    {
+        padding-top: 180px;
+    }
+}
+/* iPhone 5 landscape */
+@media (min-width: 568px){
+    h3
+    {
+        font-size: 18.66px;
+    }
+    #title
+    {
+        margin-top: -24px;
+        padding-top: 0px;
+    }
+    #reading
+    {
+        padding: 0;
+        margin: 0;
+        margin-top: -50px;
+        font-size: 139.56px;
+    }
+    #percent
+    {
+        vertical-align: super;
+        font-size: 44.20px;
+        line-height: normal;
+        margin-left: -40px;
+    }
+    #update
+    {
+        padding-top: 0px;
+        margin-top: -32px;
+        font-size: 14px;
+    }
+}
+/* desktop */
+@media (min-width: 569px){
+    h3
+    {
+        font-size: 36.7px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+    }
+    #title
+    {
+        padding-top: 0px;
+    }
+    #reading
+    {
+        padding: 0;
+        margin: 0;
+        margin-top: -65px;
+        font-size: 251.2px;
+    }
+    #percent {
+        vertical-align: super;
+        font-size: 96px;
+        line-height: normal;
+        margin-left: -60px;
+    }
+    #update
+    {
+        font-size: 16px;
+        margin-top: 0px;
+        padding-top: 120px;
+    }
+}
