@@ -3,7 +3,7 @@ Final Project for CS50: https://courses.edx.org/courses/course-v1:HarvardX+CS50+
 
 The ESP8266 runs a program once every hour that takes a soil moisture reading from a houseplant, provides visual feedback via OLED display and sends reading over WiFi to server which then updates a MySQL database via PHP. If the houseplant is found to be "dry," an email message is sent via PHP to the user.
 
-<h4>Tested Hardware</h4>: WeMos D1 Mini (ESP8266) with WeMos-made 64x48-pixel OLED Shield and YL-69/YL-38 soil moisture sensor.
+<h4>Tested Hardware:</h4>WeMos D1 Mini (ESP8266) with WeMos-made 64x48-pixel OLED Shield and YL-69/YL-38 soil moisture sensor.
 
 ESP8266 code tested and compiled via Arduino IDE 1.5.4.
 The server requires MySQL to store soil moisture values.
